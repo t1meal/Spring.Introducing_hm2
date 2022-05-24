@@ -1,5 +1,4 @@
 package ru.gb.main.utils;
-
 import java.util.Random;
 
 public class Product {
