@@ -1,4 +1,4 @@
-package ru.gb.main;
+package ru.gb.main.utils;
 
 import java.util.Random;
 
@@ -16,6 +16,10 @@ public class Product {
     public String getProductToString(){
         String id = Integer.toString(this.id);
         String cost = Integer.toString(this.cost);
-        return id + "_" + this.title + "_" + cost;
+        return id + " " + this.title + " " + cost;
+    }
+
+    public Integer getId() {
+        return id;
     }
 }
